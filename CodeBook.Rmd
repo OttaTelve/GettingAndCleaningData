@@ -1,0 +1,65 @@
+---
+title: "CodeBook"
+author: "OttaTelve"
+date: "31 gennaio 2016"
+output: html_document
+---
+
+# Codebook
+
+## Name and description of variables in the database:
+
+### subject 	
+  **ID the subject who performed the activity for each window sample.**  
+  Its range is from 1 to 30.
+  
+### activity 	
+  **Activity name**  
+  SITTING  
+  STANDING  
+  WALKING  
+  WALKING_DOWNSTAIRS  
+  WALKING_UPSTAIRS
+    
+### featDomain 	
+  **Feature: Time domain signal or frequency domain signal**   
+  Time  
+  Freq
+    
+### featInstrument 	
+  **Feature: Measuring instrument**   
+  Accelerometer  
+  Gyroscope  
+  
+### featAcceleration 	
+  **Feature: Acceleration signal** 
+    Body
+    Gravity
+    
+### featVariable 	
+  **Feature: Variable**   
+  Mean  
+  SD (Standard Deviation)
+
+### featJerk 	
+  **Feature: Jerk signal**  
+  jerk or NaN
+    
+### featMagnitude 	  
+  **Feature: Magnitude of the signals calculated using the Euclidean norm ** 
+  Magnitude or NaN
+    
+### featAxis 	
+  **Feature: 3-axial signals in the X, Y and Z directions**   
+  X  
+  Y  
+  Z
+    
+### featCount 	
+  **Feature: Count of data points used to compute average**
+  
+### featAverage 	
+  **Feature: Average of each variable for each activity and each subject**
+
+
+
